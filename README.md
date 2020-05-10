@@ -3,4 +3,3 @@ Sparkify is a startup that wants to analyze the data they have been collecting o
 
 # Design Schema 
 The star network is created consisting of fact tables as songplays and the dimension table are users, artists, songs and time. The ETL pipelines fills up the postgres. The pandas is used to read the JSON file, the JSON file contains the data that has to be converted into postgres database.
-
